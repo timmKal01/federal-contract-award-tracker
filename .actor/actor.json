@@ -1,0 +1,12 @@
+{
+    "actorSpecification": 1,
+    "name": "federal-contract-award-tracker",
+    "title": "Federal Contract Win Finder — GovCon Leads & Competitor Intel",
+    "description": "Search recent U.S. federal contract awards by keyword, NAICS code, agency, or state. Get back who just won, how much, and from which agency — for subcontracting leads and GovCon competitor tracking.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "dockerfile": "../Dockerfile"
+}

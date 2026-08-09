@@ -1,0 +1,55 @@
+{
+    "title": "Federal Contract Award Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "keyword": {
+            "title": "Keyword",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Free-text search across contract descriptions (e.g. \"cybersecurity\", \"janitorial\", \"cloud migration\"). Leave blank to skip keyword filtering."
+        },
+        "naicsCodes": {
+            "title": "NAICS codes",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Limit to these NAICS industry codes (e.g. \"541512\" for Computer Systems Design Services). Leave empty for all industries."
+        },
+        "agency": {
+            "title": "Awarding agency",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Exact top-tier awarding agency name (e.g. \"Department of Defense\", \"General Services Administration\"). Leave blank for all agencies."
+        },
+        "recipientState": {
+            "title": "Recipient state",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Two-letter US state code to limit to contractors headquartered there (e.g. \"TX\"). Leave blank for all states."
+        },
+        "minAwardAmount": {
+            "title": "Minimum award amount (USD)",
+            "type": "integer",
+            "editor": "number",
+            "description": "Only return awards at or above this dollar amount."
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days back from today to search for new awards.",
+            "default": 30,
+            "minimum": 1,
+            "maximum": 365
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of awards to return, largest award amount first.",
+            "default": 25,
+            "minimum": 1,
+            "maximum": 100
+        }
+    }
+}
