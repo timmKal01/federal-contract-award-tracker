@@ -77,3 +77,4 @@ Looking for private-sector buying signals instead of federal contracts?
 
 - [Company Buying Signal Report](https://github.com/timmKal01/company-buying-signal-report) — hiring, tech stack & contact info combined per company
 - [Company Hiring Tracker](https://github.com/timmKal01/company-hiring-tracker) — open roles per company
+- [Federal Grant Award Tracker](https://github.com/timmKal01/federal-grant-award-tracker) — the same USAspending.gov data for grants instead of contracts
