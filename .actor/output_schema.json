@@ -1,6 +1,6 @@
 {
     "actorOutputSchemaVersion": 1,
-    "title": "Output schema of Federal Contract Win Finder — GovCon Leads & Competitor Intel",
+    "title": "Output schema of Federal Contract Win Finder: GovCon Leads & Competitor Intel",
     "description": "Results are pushed to the default dataset, one record per item.",
     "properties": {
         "results": {
