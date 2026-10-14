@@ -75,6 +75,6 @@ new awards in your target NAICS code or agency as they post.
 
 Looking for private-sector buying signals instead of federal contracts?
 
-- [Company Buying Signal Report](https://github.com/timmKal01/company-buying-signal-report) — hiring, tech stack & contact info combined per company
-- [Company Hiring Tracker](https://github.com/timmKal01/company-hiring-tracker) — open roles per company
-- [Federal Grant Award Tracker](https://github.com/timmKal01/federal-grant-award-tracker) — the same USAspending.gov data for grants instead of contracts
+- [Company Buying Signals](https://apify.com/m_ctim/company-buying-signal-report): hiring, tech stack & contact info combined per company
+- [Company Job Openings Tracker](https://apify.com/m_ctim/company-hiring-tracker): open roles per company
+- [Federal Grant Awards](https://apify.com/m_ctim/federal-grant-award-tracker): the same USAspending.gov data for grants instead of contracts
