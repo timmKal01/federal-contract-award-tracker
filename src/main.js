@@ -110,6 +110,7 @@ const results = data.results ?? [];
 
 for (const award of results) {
     await Actor.pushData({
+        rowType: 'award',
         awardId: award['Award ID'],
         recipientName: award['Recipient Name'],
         awardAmount: award['Award Amount'],

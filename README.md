@@ -42,6 +42,7 @@ One record per contract award:
 
 ```json
 {
+  "rowType": "award",
   "awardId": "70RCSJ23FR0000071",
   "recipientName": "ACCENTURE FEDERAL SERVICES LLC",
   "awardAmount": 43865348.3,
